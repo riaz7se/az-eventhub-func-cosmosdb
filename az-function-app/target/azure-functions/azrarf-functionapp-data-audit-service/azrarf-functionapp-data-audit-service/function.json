@@ -1,0 +1,19 @@
+{
+  "scriptFile" : "../audit-functions-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.az.func.sample.Function.processAuditLogData",
+  "bindings" : [ {
+    "type" : "eventHubTrigger",
+    "direction" : "in",
+    "name" : "eventHubInput",
+    "connection" : "EventHubConnectionString",
+    "eventHubName" : "data-audit-event",
+    "cardinality" : "ONE"
+  }, {
+    "type" : "cosmosDB",
+    "direction" : "out",
+    "name" : "auditLogOutput",
+    "databaseName" : "auditlogDB",
+    "connectionStringSetting" : "CosmosDBConnectionString",
+    "collectionName" : "auditlog"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=<az-storage-acc-name>;AccountKey=<secret-key>;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "EventHubConnectionString": "Endpoint=sb://<event-hub-name>.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=<secret-key>",
+    "CosmosDBConnectionString": "AccountEndpoint=https://<cosmosdb-account-name.documents.azure.com>:443/;AccountKey=<secret-key>"
+
+  }
+}

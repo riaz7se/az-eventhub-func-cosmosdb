@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azrarfdmtdevstorage;AccountKey=JDF7aGyJE4Kv+FvyxRK96/CqaOP3B/gNKwjHgG0B5YvDPwmrOVVVd2f/qmkupOiaj0/p8BlpbQ30dAgy2nDN6w==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "EventHubConnectionString": "Endpoint=sb://data-audit-event-dev.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Ozb2H1gSck+IaJ4ef/HH7w/JO2MiSY+p4vAE7g7sZyQ=",
+    "CosmosDBConnectionString": "AccountEndpoint=https://data-audit-dev.documents.azure.com:443/;AccountKey=jgnUDcrXnUQakBfPFh9QLGJSsq7jM2p7KfhYj2sjh7Dwhu1hzFVMOZWTm5N1xDiNvtFCB0mXSYDgS90eW8W1Bw=="
+
+  }
+}
